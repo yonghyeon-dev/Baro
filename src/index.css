@@ -1,4 +1,4 @@
-/* 기본 초기화 및 폰트 */
+/* 초기화 및 폰트 */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 
-/* 레이아웃 */
+/* 컨테이너 */
 .container {
   width: 90%;
   max-width: 1200px;
@@ -42,11 +42,14 @@ a {
   align-items: center;
   padding: 1rem 0;
 }
-.logo {
-  height: 48px;
+.hero-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 .nav-menu {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.5rem;
   list-style: none;
   font-weight: 600;
@@ -76,11 +79,10 @@ a {
   z-index: 2;
   color: white;
 }
-.hero-logo {
+.hero-content .hero-logo {
   width: 100px;
   height: 100px;
   margin-bottom: 1rem;
-  object-fit: contain;
 }
 .hero h1 {
   font-family: "Playfair Display", serif;
@@ -144,11 +146,12 @@ a {
   gap: 2rem;
   margin-top: 2rem;
 }
-.before img,
-.after img {
+.before-after-box img {
   width: 100%;
-  border-radius: 8px;
   max-width: 500px;
+  border-radius: 8px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
 }
 
 /* Contact */
@@ -184,7 +187,13 @@ a {
     font-size: 2rem;
   }
   .nav-menu {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .nav-content {
+    flex-direction: column;
     gap: 1rem;
   }
 }

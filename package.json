@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/yonghyeon-dev/Baro/issues"
   },
-  "homepage": "https://github.com/yonghyeon-dev/Baro",
+  "homepage": "https://yonghyeon-dev.github.io/Baro",
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^18.2.0",

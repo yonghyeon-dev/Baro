@@ -3,10 +3,14 @@ import "../index.css";
 
 const Hero = () => {
   return (
-    <header className="hero">
+    <section className="hero">
       <div className="overlay"></div>
       <div className="hero-content">
-        <img src="/logo.png" alt="바로방충망 로고" className="hero-logo" />
+        <img
+          src={`${process.env.PUBLIC_URL}/logo.png`}
+          alt="바로방충망 로고"
+          className="hero-logo"
+        />
         <h1>프리미엄 인테리어 방충망</h1>
         <p>
           고객의 공간에 품격을 더하는
@@ -17,7 +21,7 @@ const Hero = () => {
           상담 문의하기
         </a>
       </div>
-    </header>
+    </section>
   );
 };
 
