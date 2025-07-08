@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/yonghyeon-dev/Baro/static/css/main.929f6a2c.css",
-    "main.js": "/yonghyeon-dev/Baro/static/js/main.70b038ce.js",
+    "main.js": "/yonghyeon-dev/Baro/static/js/main.b8067726.js",
     "index.html": "/yonghyeon-dev/Baro/index.html",
     "main.929f6a2c.css.map": "/yonghyeon-dev/Baro/static/css/main.929f6a2c.css.map",
-    "main.70b038ce.js.map": "/yonghyeon-dev/Baro/static/js/main.70b038ce.js.map"
+    "main.b8067726.js.map": "/yonghyeon-dev/Baro/static/js/main.b8067726.js.map"
   },
   "entrypoints": [
     "static/css/main.929f6a2c.css",
-    "static/js/main.70b038ce.js"
+    "static/js/main.b8067726.js"
   ]
 }
