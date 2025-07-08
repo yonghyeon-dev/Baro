@@ -5,7 +5,8 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container nav-content">
-        <img src="/logo.png" alt="바로방충망 로고" className="logo" />
+        <img src="/logo.png" alt="바로방충망 로고" className="hero-logo" />
+
         <ul className="nav-menu">
           <li>
             <a href="#about">About</a>
