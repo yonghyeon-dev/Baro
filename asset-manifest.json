@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Baro/static/css/main.d883e64f.css",
-    "main.js": "/Baro/static/js/main.b8067726.js",
+    "main.css": "/Baro/static/css/main.a49cfcab.css",
+    "main.js": "/Baro/static/js/main.1d273ecc.js",
     "index.html": "/Baro/index.html",
-    "main.d883e64f.css.map": "/Baro/static/css/main.d883e64f.css.map",
-    "main.b8067726.js.map": "/Baro/static/js/main.b8067726.js.map"
+    "main.a49cfcab.css.map": "/Baro/static/css/main.a49cfcab.css.map",
+    "main.1d273ecc.js.map": "/Baro/static/js/main.1d273ecc.js.map"
   },
   "entrypoints": [
-    "static/css/main.d883e64f.css",
-    "static/js/main.b8067726.js"
+    "static/css/main.a49cfcab.css",
+    "static/js/main.1d273ecc.js"
   ]
 }
